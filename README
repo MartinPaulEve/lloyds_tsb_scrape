@@ -1,1 +1,5 @@
-This is a Ruby script that will securely login to your Lloyds TSB account and retrieve your current balances. The original script is derived from work by Chris Roos at http://code.google.com/p/chrisroos/source/browse/trunk/banking-scripts/lloyds-statement-downloader/#lloyds-statement-downloader%253Fstate%253Dclosed . This version works as of December 2011.
+Following my frustration that no UK banks seemed to offer open aggregation methods, this is a Ruby script that will securely login to your Lloyds TSB account and retrieve your current balances. The original script is derived from work by Chris Roos at http://code.google.com/p/chrisroos/source/browse/trunk/banking-scripts/lloyds-statement-downloader/#lloyds-statement-downloader%253Fstate%253Dclosed . This version works as of December 2011.
+
+To use it, modify the lloydstsb_credentials.rb file to contain your personal data then launch lloyds_tsb.rb from the command prompt.
+
+The code is fairly self-explanatory and, as I got tired writing it, the loops become messier. I'm sure you'll cope, though.
